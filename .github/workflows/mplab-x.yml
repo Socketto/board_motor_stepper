@@ -1,0 +1,25 @@
+name: Build MPLAB X Project
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    name: Build the project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the source code
+        uses: actions/checkout@v1
+      - name: Build
+        uses: jeandeaual/mplabx-xc8-build-action@v0.2.0
+        with:
+          project: TestStepper.X
+          configuration: default
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware-output
+          path: TestStepper.X/dist/default/production/*.hex
