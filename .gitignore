@@ -1,5 +1,4 @@
 # Arduino
-*.ino
 *.pde
 *.hex
 *.elf
@@ -22,8 +21,6 @@ generated/
 .idea/
 .vscode/
 .settings/
-*.cpp
-*.h
 
 __pycache__/
 
