@@ -1,0 +1,166 @@
+(footprint "1X04_LONGPADS_513"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole - 4 Pin Long Pads\n\nSpecifications:\n\n• Pin count:4\n• Pin pitch:0.1\"\n\nExample device(s):\n\n• CONN_04")
+	(property "Reference" "REF**"
+		(at -1.27 -2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "102a32db-1e6c-4e52-8180-1ca05793e782")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1X04_LONGPADS_513"
+		(at -1.27 2.667 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7c1b714-0069-4947-8533-9a2052927703")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcfffd82-4dbe-431d-92f7-dcb843b71cb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "189f1632-3863-42b2-8312-29a1a9bd9b51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.27 -0.635)
+		(end -1.27 0.635)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9dcfac4-09cf-4b2d-82f9-7f7455bdf925")
+	)
+	(fp_line
+		(start 8.89 -0.635)
+		(end 8.89 0.635)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3dd2ddb-331c-4c9d-99b6-e3fc7cad56ce")
+	)
+	(fp_poly
+		(pts
+			(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "22f9c221-205e-4819-a5b5-62346a6d452b")
+	)
+	(fp_poly
+		(pts
+			(xy 2.286 0.254) (xy 2.794 0.254) (xy 2.794 -0.254) (xy 2.286 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "f1f77489-baa5-4dfa-99b0-b666b1d59b76")
+	)
+	(fp_poly
+		(pts
+			(xy 4.826 0.254) (xy 5.334 0.254) (xy 5.334 -0.254) (xy 4.826 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b69ee17e-05bb-4435-9f28-f6a9893c249b")
+	)
+	(fp_poly
+		(pts
+			(xy 7.366 0.254) (xy 7.874 0.254) (xy 7.874 -0.254) (xy 7.366 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "2c104687-bf36-430f-8c1e-07311b70f39e")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 90)
+		(size 3.7592 1.8796)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "a29a62dd-8a89-484a-a128-902f1584d43b")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 3.7592 1.8796)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bfaa3d29-9bfa-4579-80aa-3ea252b01e69")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 3.7592 1.8796)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "45d26ea4-a6e1-4f6f-9b81-d84a975aba1b")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0 90)
+		(size 3.7592 1.8796)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "fca8e8e8-b609-4e5a-86ac-0fc8a1aaa4a2")
+	)
+	(embedded_fonts no)
+)

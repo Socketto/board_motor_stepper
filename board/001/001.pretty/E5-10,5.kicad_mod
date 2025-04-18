@@ -1,0 +1,214 @@
+(footprint "E5-10,5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ELECTROLYTIC CAPACITOR\n\ngrid 5.08 mm, diameter 10.5 mm")
+	(property "Reference" "REF**"
+		(at 4.699 -2.7432 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c12aa796-9694-43ee-94b0-44ccd077f885")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "E5-10,5"
+		(at -3.1242 3.2258 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72bf77f4-24da-40fb-a4ef-21c5dfa2baac")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f517845-74f3-424a-807c-791bb3a22a34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "795931ce-f156-46dc-8907-7024da1cf3c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.81 -1.651)
+		(end -3.81 -0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4898d225-3baf-4e74-a40d-9c23ed411d8d")
+	)
+	(fp_line
+		(start -3.429 -1.27)
+		(end -4.191 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4afbbc90-9437-4b7c-a0f6-801a8e0d80bb")
+	)
+	(fp_line
+		(start -1.143 0)
+		(end -0.889 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fde82e35-cb8d-4b0e-94a8-267c41cded93")
+	)
+	(fp_line
+		(start -0.889 -1.143)
+		(end -0.889 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a37b9db-f834-46a4-b8b5-3379b73d8e20")
+	)
+	(fp_line
+		(start -0.889 0)
+		(end -0.889 1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09bd4f2f-50ff-4666-a8ae-0c4fd71f6d75")
+	)
+	(fp_line
+		(start -0.889 1.143)
+		(end -0.254 1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d5c449c-cd8e-4a26-8933-f0fd033b4860")
+	)
+	(fp_line
+		(start -0.254 -1.143)
+		(end -0.889 -1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53af2e6f-fa6b-487f-8e6d-2b066e69796d")
+	)
+	(fp_line
+		(start -0.254 1.143)
+		(end -0.254 -1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9106710e-ae45-4bb1-ad18-18ff5d500e0d")
+	)
+	(fp_line
+		(start 0.635 0)
+		(end 1.143 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4f0297b-195e-4a30-9255-6f86b0dd8e73")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.08 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d3ae909b-010c-4266-a368-5aba9cb3f520")
+	)
+	(fp_poly
+		(pts
+			(xy 0.254 1.143) (xy 0.889 1.143) (xy 0.889 -1.143) (xy 0.254 -1.143)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f9f3d7ed-cfde-436f-b8de-f061c1dbd80c")
+	)
+	(fp_line
+		(start -1.651 0)
+		(end -1.143 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8c8ef29-3ae9-4285-9748-bed2da049b03")
+	)
+	(fp_line
+		(start 1.143 0)
+		(end 1.651 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72d7de1f-9138-4e9c-bb9e-2a158c382074")
+	)
+	(pad "+" thru_hole circle
+		(at -2.54 0)
+		(size 2.54 2.54)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "48ee921a-5078-42fc-b21d-fa56b6b9d3df")
+	)
+	(pad "-" thru_hole roundrect
+		(at 2.54 0)
+		(size 2.54 2.54)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "8ff41156-5462-4201-9aea-dc71215ebda6")
+	)
+	(embedded_fonts no)
+)
